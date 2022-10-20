@@ -33,6 +33,7 @@ except ImportError:
 pretty.install()
 CON=sol()
 ugen2=['Mozilla/5.0 (Linux; Android 10; SM-A205F) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.40 Mobile Safari/537.36']
+ugen=['Mozilla/5.0 (Linux; Android 10; Mi A2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.40 Mobile Safari/537.36']
 cokbrut=[]
 ses=requests.Session()
 princp=[]
