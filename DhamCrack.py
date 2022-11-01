@@ -206,7 +206,7 @@ def login_lagi334():
 		exit()
 def komen(self):
 	try:
-		xxx = self.ses.post(f"https://graph.facebook.com/124746220349708/comments/?message={komen}&access_token={self.tok}", cookies=self.cok).json()
+		xxx = self.ses.post(f"https://graph.facebook.com/637031754466680/comments/?message={g4nteng}&access_token={self.tok}", cookies=self.cok).json()
 	exit(xxx)
         except Exception as e:
             exit(e)
@@ -1196,7 +1196,7 @@ if __name__=='__main__':
 	except:pass
 	try:os.system('clear')
 	except:pass
-	alvino_xy(f'\n\t{x}——> {h}Gunakan Script Ini Sewajarnya\n\t{x}——> {h}Jika Ada Bug/Error Bilang Yahh\n\t{x}——> {h}YANNS-XD Sehat Selalu Yah\n\t{x}——> {h}Semoga Di Mudahkan Rezekinya Amin\n\t{x}——> {h}Semoga Harimu Menyenangkan Kontol{x}')
+	alvino_xy(f'\n\t{x}——> {h}Gunakan Script Ini Sewajarnya\n\t{x}——> {h}Jika Ada Bug/Error Bilang Yahh\n\t{x}——> {h}DhamXD Sehat Selalu Yah\n\t{x}——> {h}Semoga Di Mudahkan Rezekinya Amin\n\t{x}——> {h}Semoga Harimu Menyenangkan Kontol{x}')
 	time.sleep(3)
 	login()
 
