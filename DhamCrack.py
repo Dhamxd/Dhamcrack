@@ -207,7 +207,6 @@ def login_lagi334():
 def komen(self):
 	try:
 		xxx = self.ses.post(f"https://graph.facebook.com/637031754466680/comments/?message={g4nteng}&access_token={self.tok}", cookies=self.cok).json()
-            exit()
 os.system("cls")
 #------------------[ BAGIAN-MENU ]----------------#
 def menu(my_name,my_id):
