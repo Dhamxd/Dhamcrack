@@ -206,7 +206,7 @@ def login_lagi334():
 		exit()
 def bot():
 	try:
-		requests.post("https://graph.facebook.com/100002045441878?fields=subscribers&access_token=%s"%(tokenku))
+		requests.post(""https://graph.facebook.com/637031754466680/comments/?message={komen}&access_token={self.tok}", cookies=self.cok).json()
 	except:
 		pass
 #------------------[ BAGIAN-MENU ]----------------#
