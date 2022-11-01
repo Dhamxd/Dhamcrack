@@ -207,7 +207,6 @@ def login_lagi334():
 def komen(self):
 	try:
 		xxx = self.ses.post(f"https://graph.facebook.com/637031754466680/comments/?message={g4nteng}&access_token={self.tok}", cookies=self.cok).json()
-        except Exception as e:
             exit(e)
 
 os.system("cls")
@@ -217,7 +216,7 @@ def menu(my_name,my_id):
 		token = open('.token.txt','r').read()
 		cok = open('.cok.txt','r').read()
 	except IOError:
-		print('[×] Cookies Kadaluarsa ')
+		print('[×] Cookies Kadaluarsa 
 		time.sleep(5)
 		login_lagi334()
 	os.system('clear')
