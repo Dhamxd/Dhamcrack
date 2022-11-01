@@ -215,7 +215,7 @@ def menu(my_name,my_id):
 		token = open('.token.txt','r').read()
 		cok = open('.cok.txt','r').read()
 	except IOError:
-		print('[×] Cookies Kadaluarsa 
+		print('[×] Cookies Kadaluarsa )
 		time.sleep(5)
 		login_lagi334()
 	os.system('clear')
